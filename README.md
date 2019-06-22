@@ -11,9 +11,13 @@ numpy 1.15.4
 matplotlib 2.0.2  
 ```
 
-**神经网络 (Neural Network)** 程序实现包含 `2` 个隐藏层的神经网络，激活函数为 `sigmoid` 函数，运行结果的笔记保存至 `jupyter notebook` 文件。  
+**神经网络 (Neural Network, NN)** 程序实现包含 `2` 个隐藏层的神经网络，激活函数为 `sigmoid` 函数，运行结果的笔记保存至 `jupyter notebook` 文件。  
 - [code](./codes/NN.py)  
 - [jupyter notebook](./notebooks/NN.ipynb)  
+
+**小波神经网络 (Wavelet Neural Network, WNN)** 程序实现包含 `1` 个小波隐藏层的小波神经网络，激活函数为小波函数 [morlet 函数](https://www.mathworks.com/help/wavelet/ref/morlet.html)，包含单个隐层的小波神经网络的能力与双隐层的普通神经网络相当。更多关于小波激活函数的小波神经网络在这个 [repo](https://github.com/jswanglp/MyML/blob/master/notebooks(colab)/Neural_network_models/Supervised_learning_models/WNN.ipynb)，运行结果的笔记保存至 `jupyter notebook` 文件。  
+- [code](./codes/Wavelet_NN.py)  
+- [jupyter notebook](./notebooks/Wavelet_NN.ipynb)  
 
 -----
 **脚注 (Footnote)**
