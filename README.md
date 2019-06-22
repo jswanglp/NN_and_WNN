@@ -6,7 +6,7 @@
 
 需要安装的库包括：
 ```
-TensorFlow 1.12.0 (如果已下载 `mnist` 手写数据集则不需要)  
+TensorFlow 1.12.0 (如果已下载 mnist 手写数据集则不需要)  
 numpy 1.15.4  
 matplotlib 2.0.2  
 ```
