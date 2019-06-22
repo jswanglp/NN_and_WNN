@@ -194,3 +194,11 @@ if __name__ == '__main__':
 
     net.evaluate(testing_data)
     # >> 0.902
+
+    # morlet 小波可视化
+    fig = plt.figure(1, figsize=(8, 6))
+    x = np.linspace(-4, 4, 201, endpoint=True)
+    y = net.phi(x, t=1, s=0)
+    plt.plot(x, y, label='morlet wavelet')
+    # plt.legend(fontsize=12)
+    plt.title(r'Morlet wavelet, $cos({kx})e^{\frac{-x^{2}}{2}}$', fontsize=14)
