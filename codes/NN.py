@@ -18,6 +18,7 @@ def timer(func):
         print('Training time is :{:.2f} s.'.format(end_time - start_time))
     return wrapper
 
+# 定义网络结构类
 class NeuralNet(object):  
     # 初始化神经网络，sizes是神经网络的层数和每层神经元个数
     def __init__(self, sizes):
