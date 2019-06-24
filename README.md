@@ -37,7 +37,7 @@ matplotlib 2.0.2
 **脚注 (Footnote)**
 
 <a name='fn1'>[1]</a>: [进学解 -- 韩愈](https://so.gushiwen.org/shiwenv_94a69d56db65.aspx)  
-<a name='fn2'>[2]</a>: [Gaviphat L. Adaptive Self-Tuning Neuro Wavelet Network Controllers     // PhD thesis. Blacksburg, Virginia. 1997. 122p.](https://vtechworks.lib.vt.edu/handle/10919/30603)
+<a name='fn2'>[2]</a>: [Gaviphat L. Adaptive Self-Tuning Neuro Wavelet Network Controllers     // PhD thesis. Blacksburg, Virginia. 1997. 122p.](https://vtechworks.lib.vt.edu/handle/10919/30603)  
 <a name='fn3'>[3]</a>: [Ван Л. Петросян О.Г. Распознавание лиц на основе классификации вейвлет признаков путём вейвлет-нейронных сетей // Информатизация образования и науки. 2018. №4. С. 129-139.](https://elibrary.ru/item.asp?id=36295551)  
 
 <a href='#fn1b'><small>↑Back to Content↑</small></a>
