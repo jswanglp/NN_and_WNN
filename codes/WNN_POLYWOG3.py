@@ -231,6 +231,16 @@ if __name__ == '__main__':
     ax.set_ylabel(r'$\psi (x)$', rotation='horizontal', fontsize=14)
     ax.yaxis.set_label_coords(-.05,1.02)
 
+    # # Derivative function
+    # y_d = net.phi_der(x, t=1, s=0)
+    # ax_d = fig.add_subplot(122)
+    # ax_d.plot(x, y_d, label='derivative')
+    # ax_d.legend(loc='upper right', fontsize=12)
+    # ax_d.set_title('Derivative of morlet wavelet', fontsize=14)
+    # ax_d.set_xlabel('x', fontsize=14)
+    # ax_d.set_ylabel("${\psi}'(x)$", rotation='horizontal', fontsize=14)
+    # ax_d.yaxis.set_label_coords(-.05,1.02)
+
     net.SGD(training_data, epochs=200, mini_batch_size=32, lr=.1, step=20)
 
     # >> Epoch 1, mse_loss: 0.3483, accury on the training set :48.18%
@@ -262,6 +272,16 @@ if __name__ == '__main__':
     ax.set_xlabel('x', fontsize=14)
     ax.set_ylabel(r'$\psi (x)$', rotation='horizontal', fontsize=14)
     ax.yaxis.set_label_coords(-.05,1.02)
+
+    # # Derivative function
+    # y_d = net.polywog3_der(x, t=1, s=0)
+    # ax_d = fig.add_subplot(122)
+    # ax_d.plot(x, y_d, label='derivative')
+    # ax_d.legend(loc='upper right', fontsize=12)
+    # ax_d.set_title('Derivative of POLYWOG3 wavelet', fontsize=14)
+    # ax_d.set_xlabel('x', fontsize=14)
+    # ax_d.set_ylabel("${\psi}'(x)$", rotation='horizontal', fontsize=14)
+    # ax_d.yaxis.set_label_coords(-.05,1.02)
 
     net.SGD(training_data, epochs=200, mini_batch_size=32, lr=.1, step=20)
 
